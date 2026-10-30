@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seat Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h2>TravelGo</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Bookings</a>
+        <a href="fares.html">Fares</a>
+        <a href="booking.html">Booking</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Select Your Seat</h1>
+
+    <div class="seats">
+        <button onclick="selectSeat(this)">A1</button>
+        <button onclick="selectSeat(this)">A2</button>
+        <button onclick="selectSeat(this)">B1</button>
+        <button onclick="selectSeat(this)">B2</button>
+        <button onclick="selectSeat(this)">C1</button>
+        <button onclick="selectSeat(this)">C2</button>
+    </div>
+
+    <h3 id="selectedSeat">Selected Seat: None</h3>
+
+    <h2>Passenger Details</h2>
+
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="number" id="age" placeholder="Age">
+    <input type="tel" id="mobile" placeholder="Mobile Number">
+    <input type="email" placeholder="Email Address">
+
+    <button onclick="confirmBooking()">Confirm Booking</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

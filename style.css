@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #222;
+}
+
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.search-box {
+    background: white;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+input, select {
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+button:hover {
+    background: #f97316;
+}
+
+.container {
+    width: 85%;
+    margin: 35px auto;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background: #1e3a8a;
+    color: white;
+}
+
+.seats {
+    margin: 25px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+@media(max-width:600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    input, select {
+        width: 90%;
+    }
+}

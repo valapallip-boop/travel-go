@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TravelGo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h2>🚍 TravelGo</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Bookings</a>
+        <a href="fares.html">Fares</a>
+        <a href="booking.html">Booking</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Book Your Bus & Train Journey</h1>
+    <div class="search-box">
+        <input type="text" id="from" placeholder="From">
+        <input type="text" id="to" placeholder="To">
+        <input type="date" id="date">
+        <select id="passengers">
+            <option>1 Passenger</option>
+            <option>2 Passengers</option>
+            <option>3 Passengers</option>
+        </select>
+        <button onclick="searchTrips()">Search Services</button>
+    </div>
+</section>
+
+<div class="container">
+    <h2>Welcome to TravelGo</h2>
+    <p>Book your bus and train tickets easily.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
